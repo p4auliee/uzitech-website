@@ -1,4 +1,3 @@
 [build]
-  base = "uzitech-website/client"
-  command = "pnpm install && pnpm run build"
-  publish = "dist"
+  command = "cd uzitech-website/client && pnpm install && pnpm run build"
+  publish = "uzitech-website/client/dist"
