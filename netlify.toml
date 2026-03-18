@@ -1,0 +1,4 @@
+[build]
+  base = "uzitech-website/client"
+  command = "pnpm install && pnpm run build"
+  publish = "uzitech-website/client/dist"
